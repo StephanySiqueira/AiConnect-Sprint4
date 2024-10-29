@@ -97,6 +97,21 @@ A arquitetura monolítica foi escolhida para este projeto, onde todos os compone
 
 ---
 
+## 5.Autenticação com Firebase
+
+### Visão Geral
+Este serviço utiliza o Firebase Authentication para gerar tokens personalizados e autenticar usuários em nossa aplicação. A autenticação é realizada através de um endpoint que gera um token a partir das credenciais do usuário, permitindo acesso seguro a recursos da API.
+
+### Funcionalidades Implementadas
+1. **Geração de Token**
+O serviço possui um endpoint para gerar um token personalizado para o usuário. O token é gerado utilizando as credenciais fornecidas e permite a autenticação nas requisições subsequentes.
+### Endpoint
+- **Método**: POST
+- **Caminho**: /generate-token
+
+
+---
+
 ## 5. Membros do Grupo
 
 - **Stephany Siqueira** RM: 98258
