@@ -111,8 +111,7 @@ O serviço possui um endpoint para gerar um token personalizado para o usuário.
 - **Método**: `POST`
 - **Caminho**: `/generate-token`
 
-## 2. Configurações do Firebase
-
+ 2. **Configurações do Firebase**
 Para a integração correta com o Firebase, as seguintes configurações são necessárias:
 
 - **Chave da API**: `AIzaSyAFbiRQxCy3VVcxNclICjV0-Jl_pGBi6t4`
