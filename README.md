@@ -1,4 +1,4 @@
-# SPRINT 3 - API de CRM AIConnect
+# SPRINT 4- API de CRM AIConnect
 
 ## 1. Arquitetura da API
 
@@ -158,7 +158,7 @@ O projeto adota os princípios SOLID para criar um sistema mais escalável e fá
 - **D** - Dependency Inversion Principle (DIP)
 
 ---
-## 5. Funcionalidades de IA Generativa
+## 8. Funcionalidades de IA Generativa
 
 A API **AiConnect** inclui um serviço de análise de sentimento, desenvolvido com o **ML.NET**, que permite aos usuários determinar a polaridade de uma opinião (positiva ou negativa).
 
@@ -180,17 +180,18 @@ A API **AiConnect** inclui um serviço de análise de sentimento, desenvolvido c
 
 #### Corpo da Requisição
 
-```json
-"Eu odiei esse serviço."
+`"eu odiei esse serviço"`
 
 ### Resposta da API
+
 A resposta da API incluirá a previsão do sentimento e a probabilidade associada. A estrutura da resposta é a seguinte:
 
-```json
+`
 {
   "prediction": false,
   "probability": 0.95
-}
+}`
+
 
 ### Exemplos de Uso
 
@@ -203,15 +204,11 @@ Abaixo estão exemplos de entradas de texto e suas respectivas saídas de análi
 - **Texto Negativo**  
   - **Entrada**: `"Este é o pior serviço que já usei."`  
   - **Saída**: `{"prediction": false, "probability": 0.96}`
-
-Esses exemplos mostram como a API classifica a opinião expressa e a confiança associada à previsão.
-
 ---
-
 ## 9. Membros do Grupo
-
 - **Stephany Siqueira** RM: 98258
 - **Camila Dos Santos Cunha** RM: 551785
 - **Guilherme Castro** RM: 99624
 - **Thiemi Hiratani Favaro** RM: 551478
 - **Ana Clara Rocha de Oliveira** RM: 550110
+
